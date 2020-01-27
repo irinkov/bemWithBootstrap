@@ -1,7 +1,7 @@
 @import 'font.css';
 
 body {
-    background-color: grey;
+    font-family: 'Open Sans';
 }
 
 ul, li {
@@ -18,11 +18,69 @@ ul, li {
     margin-left: 37px;
 }
 .menu__item a {
-    font-family: 'Open Sans Semibold';
     font-size: 20px;
     color: #212121;
+    font-family: 'Open Sans Semibold';
 }
 .menu__item a:hover {
     text-decoration: none;
     color: grey;
+}
+/* HEADER */
+.header > div {
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-position: 0 100%;
+    padding: 180px 0;
+    text-align: center;
+    color: #ffffff;
+}
+.header__title {
+    font-size: 55px;
+}
+.header__text {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s;
+}
+.button_empty {
+    background: transparent;
+    border: 2px solid white;
+}
+.button_full {
+    background: #00897b;
+    border: 2px solid #00897b;
+}
+.button_empty:hover,
+.button_full:hover {
+    border: 2px dotted #fff;
+    background-color:#04574e;
+}
+/* ABOUT */
+.about {
+    color: #212121;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 125px;
+    padding-top: 120px;
+}
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about__text {
+    font-size: 15px;
+    margin-bottom: 100px;
+    color: #212121;
+}
+.about_h3 {
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
