@@ -50,6 +50,7 @@ ul, li {
     background: #00897b;
     border: 2px solid #00897b;
     cursor: pointer;
+    text-transform: uppercase;
 }
 .button:hover {
     background: transparent;
@@ -129,4 +130,40 @@ ul, li {
 .about_text {
     font-size: 15px;
     margin-bottom: 30px;
+}
+/* Portfolio */
+
+.portfolio {
+    padding-top: 125px;
+    padding-bottom: 135px;
+    text-align: center;
+}
+.portfolio button:hover,
+.focused {
+    color: black;
+    background: transparent;
+    border: 2px solid #00897b;
+}
+.portfolio img {
+    margin-bottom: 30px;
+}
+.filter {
+    padding: 120px 0;
+}
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+.text {
+    display: none;
+}
+div[filter]:hover .text {
+    display: block;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    text-align: center;
 }
