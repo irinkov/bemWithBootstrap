@@ -349,3 +349,69 @@ div[filter]:hover .text {
     font-family: 'Roboto', sans-serif;
     margin-top: 125px;
 }
+
+/* FOOTER */
+.footer {
+    color: white;
+    background: url(..//img/footer.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 105px;
+}
+.footer .about__text {
+    color: white;
+}
+.fa-map-marker-alt, .fa-phone, .fa-envelope {
+    font-size: 62px;
+    color: white;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3949ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 35px;
+}
+.circle + p {
+    font-size: 20px;
+}
+.footer input, .footer textarea {
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.footer input:focus, .footer textarea:focus {
+    outline: none;
+}
+.form {
+    margin-top: 70px;
+}
+.footer textarea {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    resize: none;
+}
+.footer button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 80px;
+    border-radius: 10px;
+    color: #212121;
+    font-size: 20px;
+    border: none;
+    transition: 0.3s;
+}
+.footer button:hover {
+    opacity: 0.6;
+}
+.rights {
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 600;
+}
